@@ -1,0 +1,213 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header {
+    background-image: url("hero_background.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+}
+
+.hero-container {
+    max-width: 1000px;
+    margin: auto;
+    color: #ccc;
+    text-shadow: 2px 2px 15px rgba(0, 0, 0, 1);
+}
+
+.hero-heading {
+    font-size: 6em;
+    margin-bottom: 20px;
+}
+
+.hero-subheading {
+    font-size: 2.5em;
+    margin-bottom: 40px;
+}
+
+#features {
+    padding: 80px 0;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.feature {
+    flex: 1;
+    margin: 20px; /* Adjusted margin */
+    padding: 30px;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.feature i {
+    font-size: 3em;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.feature h2 {
+    font-size: 1.8em; /* Increased heading size */
+    color: #333;
+    margin-bottom: 20px; /* Adjusted margin */
+}
+
+.feature p {
+    font-size: 1.1em; /* Increased paragraph size */
+    color: #666;
+    margin-bottom: 20px; /* Adjusted margin */
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.feature-wide {
+    flex: 1 1 100%; /* Take up full width */
+    max-width: calc(100% - 40px); /* Adjusted width */
+}
+
+.container {
+    display: flex;
+    justify-content: center; /* Center align grid boxes */
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+#collection {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.product img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.product h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.product p {
+    font-size: 1em;
+    color: #666;
+}
+
+#community {
+    background-color: #f9f9f9;
+    padding: 50px 0;
+    text-align: center;
+}
+
+#contact {
+    background-color: #595454;
+    padding: 50px 0;
+    text-align: center;
+    color: #fff;
+}
+
+#contact h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+#contact p {
+    font-size: 1.1em;
+    color: rgba(255, 255, 255, 0.8);
+    margin-bottom: 30px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    background-color: #fff;
+    color: #333;
+}
+
+textarea {
+    resize: none;
+}
+
+.btn {
+    padding: 15px 30px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    transition: background-color 0.3s ease;
+    display: inline-block; /* Ensure button is displayed as block element */
+}
+
+.btn:hover {
+    background-color: #555;
+}
+
+#collection .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#collection h2 {
+    margin-bottom: 30px;
+}
+
+.product .btn {
+    margin-top: 20px; /* Adjusted margin */
+}
+
+#community h2,
+#contact h2,
+footer h2 {
+    margin-bottom: 30px;
+}
+
+#community p,
+#contact p,
+footer p {
+    margin-bottom: 30px;
+}
+
+.social-icons {
+    margin-top: 30px;
+}
+
+.social-icon {
+    font-size: 2.5em;
+    margin-right: 20px;
+    color: #333;
+}
